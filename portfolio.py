@@ -53,17 +53,8 @@ df=pd.read_csv(r"C:\Users\hamit\Desktop\Project_final\auto.csv")
 
 #********************************************************************************************Import picture
                                                                             
-image= Image.open(r"C:\Users\hamit\Downloads\20221005_101702-1.jpg")
-#st.set_page_config( page_title="My portfolio/Chahra Hamitouche", page_icon=image)
-#st.image(image)
 
-next = st.sidebar.button('NEXT SLIDE')
-if next:
-    pyautogui.press("tab")
-    pyautogui.press("down")
-st.sidebar.title('Data Analyst Junior')
-st.sidebar.header('Chahra Hamitouche')
-st.sidebar.image(image)
+
 
 
 
